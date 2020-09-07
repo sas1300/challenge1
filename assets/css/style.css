@@ -8,38 +8,35 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header Style Start */
-
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; 
-    display: inline-block;
-    margin-left: 25 px;
+    font-size: 20px;
 }
-header ul {
+
+.header div ul {
     list-style-type: none;
 }
 
-header ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -48,9 +45,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Header Style End */
 
-/* Hero Style */
+p {
+    font-size: 16px;
+}
 
 .hero {
     height: 800px;
@@ -60,22 +58,6 @@ a {
     background-size: cover;
     background-position: center;
 }
-
-/* Hero Style End */
-
-/*Content */
-
-content {
-    box-sizing: content-box;
-    display: block;
-    
-}
-
-p {
-    font-size: 16px;
-}
-
-
 
 .float-left {
     float: left;
@@ -91,44 +73,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-
-
-
-
-/* Content End */
-
-/*  Benefits */
 
 .benefits {
     margin-right: 20px;
@@ -150,7 +95,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-d
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -189,11 +134,32 @@ d
     max-width: 150px;
 }
 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
-/* Beneftits End */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
-
-
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -222,15 +188,13 @@ d
     font-size: 36px;
 }
 
-
-/*  Footer Style */
-
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-footer h2 {
+
+.footer h2 {
     font-size: 20px;
 }
