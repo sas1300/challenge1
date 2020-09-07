@@ -50,11 +50,7 @@ a {
 }
 /* Header Style End */
 
-
-
-p {
-    font-size: 16px;
-}
+/* Hero Style */
 
 .hero {
     height: 800px;
@@ -64,6 +60,16 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Hero Style End */
+
+/*Content */
+
+p {
+    font-size: 16px;
+}
+
+
 
 .float-left {
     float: left;
@@ -80,6 +86,10 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Content End */
+
+/*  Benefits */
 
 .benefits {
     margin-right: 20px;
@@ -139,6 +149,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Beneftits End */
 
 .search-engine-optimization {
     margin-bottom: 20px;
